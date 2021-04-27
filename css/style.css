@@ -223,3 +223,38 @@ body {
     line-height: 19px;
     color: var(--white);
 }
+
+.advantages__list {
+    display: flex;
+    justify-content: center;
+    background-color: var(--black-color);
+    margin-top: 95.5px;
+}
+
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    padding: 104px 0 104px 0;
+    margin: 0 15px 0 15px;
+}
+
+.advantages__item-imges {
+    width: 47px;
+    height: 35px;
+}
+
+.advantages__item-header {
+    color: var(--white);
+    padding: 25px 0 16px 0;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.advantages__item-text {
+    color: var(--white);
+    text-align: center;
+    font-size: 13.972px;
+    line-height: 17px;
+}
