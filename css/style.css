@@ -2,6 +2,7 @@
     --black-color: #222222;
     --light-pink-color: #F1E4E6;
     --pink-color: #F16D7F;
+    --light-grey: #9F9F9F;
 }
 
 body {
@@ -58,14 +59,14 @@ body {
 
 .brand {
     display: flex;
+    background-color: var(--light-pink-color);
 }
 
 .brand__heading-wrapper {
     background-color: var(--light-pink-color);
     flex-grow: 1;
     padding: 0 0 0 92px;
-    display: flex;
-    align-items: center;
+    margin: auto;
 }
 
 .brand__heading {
@@ -92,7 +93,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 65px 0 180px 0;
+    margin: 65px 0 97px 0;
 }
 
 .stocks__item {
@@ -116,7 +117,7 @@ body {
 
 .stocks__item-header {
     text-transform: uppercase;
-    color: #F16D7F;
+    color: var(--pink-color);
     text-align: center;
     font-size: 28px;
     margin-top: 14px;
@@ -142,4 +143,24 @@ body {
     min-height: 180px;
     background-image: url(../imges/differentSubjects.jpg);
     /*accessories.jpg*/
+}
+
+.products__heading {
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--black-color);
+}
+
+.products__text {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--light-grey);
+}
+
+.products__list {
+    display: flex;
 }
