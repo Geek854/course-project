@@ -5,75 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <title>catalog</title>
 </head>
 
 <body>
-    <header>
-        <img src="imges/logo.svg" alt="logo" width="44" height="38">
-        <img src="imges/loupe.svg" alt="loupe" width="26" height="27">
-        <button type="button"><img src="imges/burger.svg" alt="burger" width="32" height="23"></button>
-        <a href="#"><img src="imges/registration.svg" alt="registration" width="29" height="29"></a>
-        <a href="#"><img src="imges/cart.svg" alt="cart" width="32 height=" 29"></a>
-        <nav>
-            <h2>menu</h2>
-            <ul>
-                <li>
-                    <a href="#">man</a>
-                    <ul>
-                        <li><a href="#">Accessories</a></li>
-                        <li>
-                            <a href="#"></a>Bags
+    <header class="header">
+        <div class="header__wrapper container">
+            <div>
+                <img class="header__logo" src="./imges/logo.svg" alt="logo" width="44" height="38">
+                <img class="header__loupe" src="./imges/loupe.svg" alt="loupe" width="26" height="27">
+            </div>
+            <div>
+                <button class="header__menu-button" type="button"><img src="./imges/burger.svg" alt=" burger" width="32"
+                        height="23"></button>
+                <a class="header__link" href="#"><img src="./imges/registration.svg" alt="registration" width="32" height="23"></a>
+                <a class="header__link" href="#"><img src="./imges/cart.svg" alt="cart" width="32" height="23"></a>
+                <nav class="header__navigation">
+                    <h2 class="header__navigation-title">menu</h2>
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="#">man</a>
+                            <ul class="navigation-item__sublist">
+                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Denim</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="#"></a>Denim
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="#">woman</a>
+                            <ul class="navigation-item__sublist">
+                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="#"></a>T-Shirts
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">woman</a>
-                    <ul>
-                        <li>
-                            <a href="#">Accessories</a>
-                        </li>
-                        <li>
-                            <a href="#">Jackets & Coats</a>
-                        </li>
-                        <li>
-                            <a href="#">Polos</a>
-                        </li>
-                        <li>
-                            <a href="#">T-Shirts</a>
-                        </li>
-                        <li>
-                            <a href="#">Shirts</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">kids</a>
-                    <ul>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Jackets & Coats</a></li>
-                        <li>
-                            <a href="#"></a>Polos
-                        </li>
-                        <li>
-                            <a href="#"></a>T-Shirts
-                        </li>
-                        <li>
-                            <a href="#"></a>Shirts
-                        </li>
-                        <li>
-                            <a href="#"></a>Bags
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="#">kids</a>
+                            <ul class="navigation-item__sublist">
+                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
+                            </ul>
                         </li>
                     </ul>
-                </li>
-            </ul>
-        </nav>
+                </nav>
+            </div>
+        </div>
     </header>
     <section>
         <h3>new arrivals </h3>
@@ -236,15 +223,18 @@
         <ul>
             <li><img src="imges/car.svg " alt="car "></img>
                 <h3>Free Delivery</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </p>
             </li>
             <li><img src="imges/percent.svg " alt="percent ">
                 <h3>Sales & discounts</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </p>
             </li>
             <li><img src="imges/crown.svg " alt="crown ">
                 <h3>Quality assurance</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </p>
             </li>
         </ul>
     </section>
