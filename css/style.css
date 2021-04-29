@@ -191,8 +191,7 @@ body {
     text-transform: uppercase;
     font-size: 13px;
     line-height: 16px;
-    margin-top: 25px;
-    margin-bottom: 12.5px;
+    padding: 25px 0 12.5px 16px;
     color: var(--blak);
 }
 
@@ -200,11 +199,12 @@ body {
     color: var(--light-grey);
     font-size: 14px;
     line-height: 17px;
+    padding: 0 28px 18px 16px;
 }
 
 .products__item-price {
-    margin-top: 18px;
     color: var(--pink-color);
+    padding-left: 16px;
 }
 
 .products__button {
