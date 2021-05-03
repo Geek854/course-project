@@ -302,17 +302,18 @@ body {
 .products__item-img1:before {
     content: "";
     width: 360px;
+    height: 420px;
     margin-bottom: 30px;
     position: absolute;
-    background: rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
 }
 
 .products__item-img1:before {
-    display: block;
+    display: none;
 }
 
-.products__item1:hover .products__item-img:before {
+.products__item1:hover .products__item-img1:before {
     display: block;
 }
 
