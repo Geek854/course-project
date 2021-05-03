@@ -9,117 +9,114 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
 </head>
 
 <body>
-    <form action="">
-        <header class="header">
-            <div class="header__wrapper container">
-                <div>
-                    <img class="header__logo" src="./imges/logo.svg" alt="logo" width="44" height="38">
-                    <img class="header__loupe" src="./imges/loupe.svg" alt="loupe" width="26" height="27">
-                </div>
-                <div class="header__nav">
-                    <button class="header__menu-button" type="button" form="form"><img src="./imges/burger.svg"
-                            alt=" burger" width="32" height="32"></button>
-                    <nav class="header__navigation">
-                        <button class="cross"> <img src="./imges/cross.png" alt="cross"></button>
-                        <h2 class="header__navigation-title">menu</h2>
-                        <ul class="header__navigation-list">
-                            <li class="header__navigation-item navigation-item">
-                                <a class="navigation-item__link" href="catalog.html">man</a>
-                                <ul class="navigation-item__sublist">
-                                    <li><a class="navigation-item__sublist-link" href="cart.html">Accessories</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Denim</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
-                                </ul>
-                            </li>
-                            <li class="header__navigation-item navigation-item">
-                                <a class="navigation-item__link" href="#">woman</a>
-                                <ul class="navigation-item__sublist">
-                                    <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
-                                </ul>
-                            </li>
-                            <li class="header__navigation-item navigation-item">
-                                <a class="navigation-item__link" href="#">kids</a>
-                                <ul class="navigation-item__sublist">
-                                    <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
-                                    <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                    <a class="header__link" href="#"><img src="./imges/registration.svg" alt="registration" width="32" height="32"></a>
-                    <a class="header__link" href="#"><img src="./imges/cart.svg" alt="cart" width="32" height="32"></a>
-                </div>
+    <header class="header">
+        <div class="header__wrapper container">
+            <div>
+                <img class="header__logo" src="./imges/logo.svg" alt="logo" width="44" height="38">
+                <img class="header__loupe" src="./imges/loupe.svg" alt="loupe" width="26" height="27">
             </div>
-        </header>
-        <main>
-            <section class="brand">
-                <form id="form">
-                    <img class="foneMain" id="form" src="./imges/fone main.png" alt="fone main" width="100%" height="100%">
-                </form>
-                <img class="brand__image" src="./imges/mainphoto.jpg" alt="man" width="800" height="765">
-                <div class="brand__heading-wrapper">
-                    <h1 class="brand__heading">the brand</h1>
-                    <p class="brand__heading-text"> of luxerious
-                        <span class="brand__heading-text-pink">fashion</span>
-                    </p>
-                </div>
-            </section>
-            <section class="stocks container">
-                <h2 class="visually-hidden">Stocks</h2>
-                <ul class="stocks__list">
-                    <li class="stocks__item stocks__item--woman">
-                        <a class="stocks__item-link" href="#">
-                            <p class="stocks__item-text">30% off</p>
-                            <h3 class="stocks__item-header">for women</h3>
-                        </a>
-                    </li>
-                    <li class="stocks__item stocks__item--man">
-                        <a class="stocks__item-link" href="#">
-                            <p class="stocks__item-text">hot deal</p>
-                            <h3 class="stocks__item-header">for men</h3>
-                        </a>
-                    </li>
-                    <li class="stocks__item stocks__item--kids">
-                        <a class="stocks__item-link" href="#">
-                            <p class="stocks__item-text">new arrivals</p>
-                            <h3 class="stocks__item-header">for kids</h3>
-                        </a>
-                    </li>
-                    <li class="stocks__item stocks__item--accessories">
-                        <a class="stocks__item-link" href="#">
-                            <p class="stocks__item-text">luxirous & trendy</p>
-                            <h3 class="stocks__item-header">accesories</h3>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </form>
-
+            <div class="header__nav">
+                <button class="header__menu-button" type="button" form="form"><img src="./imges/burger.svg"
+                        alt=" burger" width="32" height="32"></button>
+                <nav class="header__navigation">
+                    <div class="background"></div>
+                    <!-- <button class="cross"> <img src="./imges/cross.png" alt="cross"></button> -->
+                    <h2 class="header__navigation-title">menu</h2>
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="catalog.html">man</a>
+                            <ul class="navigation-item__sublist">
+                                <li><a class="navigation-item__sublist-link" href="cart.html">Accessories</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Denim</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="#">woman</a>
+                            <ul class="navigation-item__sublist">
+                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navigation-item navigation-item">
+                            <a class="navigation-item__link" href="#">kids</a>
+                            <ul class="navigation-item__sublist">
+                                <li><a class="navigation-item__sublist-link" href="#">Accessories</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Jackets & Coats</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Polos</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">T-Shirts</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Shirts</a></li>
+                                <li><a class="navigation-item__sublist-link" href="#">Bags</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header__link" href="#"><img src="./imges/registration.svg" alt="registration" width="32" height="32"></a>
+                <a class="header__link" href="#"><img src="./imges/cart.svg" alt="cart" width="32" height="32"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="brand containerMain">
+            <img class="brand__image" src="./imges/mainphoto.jpg" alt="man" width="800" height="765">
+            <div class="brand__heading-wrapper">
+                <h1 class="brand__heading">the brand</h1>
+                <p class="brand__heading-text"> of luxerious
+                    <span class="brand__heading-text-pink">fashion</span>
+                </p>
+            </div>
+        </section>
+        <section class="stocks container">
+            <h2 class="visually-hidden">Stocks</h2>
+            <ul class="stocks__list">
+                <li class="stocks__item stocks__item--woman">
+                    <a class="stocks__item-link" href="#">
+                        <p class="stocks__item-text">30% off</p>
+                        <h3 class="stocks__item-header">for women</h3>
+                    </a>
+                </li>
+                <li class="stocks__item stocks__item--man">
+                    <a class="stocks__item-link" href="#">
+                        <p class="stocks__item-text">hot deal</p>
+                        <h3 class="stocks__item-header">for men</h3>
+                    </a>
+                </li>
+                <li class="stocks__item stocks__item--kids">
+                    <a class="stocks__item-link" href="#">
+                        <p class="stocks__item-text">new arrivals</p>
+                        <h3 class="stocks__item-header">for kids</h3>
+                    </a>
+                </li>
+                <li class="stocks__item stocks__item--accessories">
+                    <a class="stocks__item-link" href="#">
+                        <p class="stocks__item-text">luxirous & trendy</p>
+                        <h3 class="stocks__item-header">accesories</h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
     <section class="products">
         <h2 class="products__heading">Fetured Items</h2>
         <p class="products__text">Shop for items based on what we featured in this week</p>
         <ul class="products__list container">
             <li class="products__item1 container__mini">
-                <div class="products__item-img1">
-                    <!-- <img src="./imges/beardedManWithPigtail.jpg" alt="bearded Man With Pigtail" width="360" height="420"> -->
+                <div class="products__item-img1" width="360" height="420">
+                    <img src="./imges/beardedManWithPigtail.jpg" alt="bearded Man With Pigtail" width="360" height="420">
                 </div>
-
-                <button type="button" class="products__item-button">
-                    <img src="imges/cart.svg" alt="cart"> Add to Cart</button>
+                <button type="button" class="products__item-button1">
+                    <img class="imges__button" src="imges/cart.svg" alt="cart" width="24px" height="24px">
+                    <span class="text__button">Add to Cart</span>
+                </button>
                 <h3 class="products__item-heading">ellery x m'o capsule</h3>
                 <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                 <p class="products__item-price">$52.00</p>
