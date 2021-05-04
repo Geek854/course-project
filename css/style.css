@@ -66,6 +66,7 @@ body {
 .header__menu-button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .header__link {
@@ -266,11 +267,11 @@ body {
     justify-content: space-between;
 }
 
-.products__item1 {
+.products__item {
     position: relative;
 }
 
-.products__item-button1 {
+.products__item-button {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -286,9 +287,10 @@ body {
     height: 45px;
     display: none;
     background: rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
-.products__item-img1:before {
+.products__item-img:before {
     content: "";
     width: 360px;
     height: 420px;
@@ -297,15 +299,15 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.products__item-img1:before {
+.products__item-img:before {
     display: none;
 }
 
-.products__item1:hover .products__item-img1:before {
+.products__item:hover .products__item-img:before {
     display: block;
 }
 
-.products__item1:hover .products__item-button1 {
+.products__item:hover .products__item-button {
     display: flex;
 }
 
@@ -344,24 +346,20 @@ body {
 }
 
 .products__button-link {
-    width: 211px;
-    padding-top: 14.5px;
-    padding-bottom: 13.5px;
     border: 1px solid var(--pink-color);
-}
-
-.products__button-link:hover {
-    border: none;
-    background-color: var(--pink-color);
-    color: var(--white);
-}
-
-.products__button-link {
+    color: var(--pink-color);
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
-    color: var(--pink-color);
+    width: 211px;
+    padding-top: 14.5px;
+    padding-bottom: 13.5px;
+}
+
+.products__button-link:hover {
+    background-color: var(--pink-color);
+    color: var(--white);
 }
 
 .advantages__list {
