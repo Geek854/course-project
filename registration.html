@@ -102,17 +102,17 @@
             <form action="">
                 <fieldset>
                     <legend class="registration__form-text">Your Name</legend>
-                    <input class="registration__form-form" type="text" placeholder="First Name">
-                    <input class="registration__form-form" type="text" placeholder="Last Name">
+                    <input class="registration__form-form" type="text" placeholder="First Name" required>
+                    <input class="registration__form-form" type="text" placeholder="Last Name" required>
                     <div class="radio">
-                        <input class="radio__form" type="radio" id="registration__form-male" name="content"></input>
+                        <input class="radio__form" type="radio" id="registration__form-male" name="content" required></input>
                         <label class="radio__label male" for="registration__form-male">Male</label>
-                        <input class="radio__form" type="radio" id="registration__form-female" name="content"></input>
+                        <input class="radio__form" type="radio" id="registration__form-female" name="content" required></input>
                         <label class="radio__label female" for="registration__form-female">Female</label>
                     </div>
                     <legend class="registration__form-text">Login details</legend>
-                    <input class="registration__form-form" type="text" placeholder="Email">
-                    <input class="registration__form-form" type="text" placeholder="Password">
+                    <input class="registration__form-form" type="email" placeholder="Email" required>
+                    <input class="registration__form-form" type="password" placeholder="Password" required>
                 </fieldset>
                 <p class="registration__form-item">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
                 </p>
@@ -142,10 +142,7 @@
             </ul>
         </div>
     </section>
-
-
-
-    <footer class="footer">
+    <footer class="footer containerMain">
         <div class="footer__top">
             <div class="footer__top-list container">
                 <div class="footer__top-item">
