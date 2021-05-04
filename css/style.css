@@ -110,7 +110,7 @@ body {
     height: 695px;
     background-color: var(--white);
     z-index: 3;
-    top: 56px;
+    top: 53px;
     padding: 35px;
 }
 
@@ -118,8 +118,8 @@ body {
     position: absolute;
     width: 1600px;
     height: 765px;
-    top: 56px;
-    left: -1195px;
+    top: 53px;
+    left: -1197px;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
@@ -133,10 +133,6 @@ body {
     color: var(--blak);
     padding: 0px 0 14px 0;
     font-weight: 700;
-}
-
-.header__navigation-list {
-    /* z-index: 1; */
 }
 
 .navigation-item__link {
@@ -208,6 +204,24 @@ body {
     position: absolute;
     top: 3px;
     left: 65px;
+}
+
+.heading__registration {
+    display: flex;
+    align-items: center;
+    width: 1600px;
+    height: 148px;
+    background-color: var(--light-pink-color);
+}
+
+.heading__registration-text {
+    display: block;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    padding-left: 230px;
+    color: var(--pink-color);
 }
 
 .stocks__list {
