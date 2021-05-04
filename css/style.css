@@ -149,6 +149,10 @@ body {
     font-weight: 400;
 }
 
+.navigation-item__link:hover {
+    opacity: 0.5;
+}
+
 .navigation-item__sublist-link {
     display: block;
     padding: 0 0 10px 20px;
@@ -156,6 +160,10 @@ body {
     color: var(--light-grey);
     font-weight: 400;
     font-size: 14px;
+}
+
+.navigation-item__sublist-link:hover {
+    opacity: 0.5;
 }
 
 .brand {
