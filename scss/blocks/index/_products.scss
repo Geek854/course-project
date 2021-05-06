@@ -37,6 +37,11 @@
         background: rgba(0, 0, 0, 0);
         cursor: pointer;
     }
+    .products__item-button:hover {
+        border: 1px solid $light-light-grey;
+        color: $light-light-grey;
+        background: rgba(0, 0, 0, 0.2);
+    }
     .products__item-img:before {
         content: "";
         width: 360px;
