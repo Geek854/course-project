@@ -756,8 +756,8 @@ footer .footer__bottom-paragraph {
   display: block;
   text-transform: uppercase;
   font-size: 24px;
-  line-height: 29px 400;
-  font-weight: 300;
+  line-height: 29px;
+  font-weight: 400;
   font-style: font-style;
   color: #F16D7F;
 }
@@ -940,5 +940,44 @@ footer .footer__bottom-paragraph {
 
 .female {
   margin-left: 45px;
+}
+
+.shopping__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 148px;
+  background-color: #F1E4E6;
+}
+
+.shopping__heading-text {
+  display: block;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  font-style: font-style;
+  color: #F16D7F;
+}
+
+.shopping__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shopping__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shopping__form {
+  width: 360px;
+  height: 600px;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
