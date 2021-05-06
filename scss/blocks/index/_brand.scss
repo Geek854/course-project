@@ -1,0 +1,32 @@
+.brand {
+    display: flex;
+    background-color: $light-pink-color;
+    position: relative;
+    .brand__heading-wrapper {
+        background-color: $light-pink-color;
+        flex-grow: 1;
+        padding: 0 0 0 92px;
+        margin: auto;
+        position: relative;
+    }
+    .brand__heading {
+        @include font (48px, 58px, 900);
+        text-transform: uppercase;
+    }
+    .brand__heading-text {
+        @include font (37px, 44px, 700);
+    }
+    .brand__heading-text-pink {
+        @include font (37px, 44px, 700);
+        color: $pink-color;
+    }
+    .brand__heading-wrapper:before {
+        content: "";
+        width: 12px;
+        height: 92px;
+        background-color: $pink-color;
+        position: absolute;
+        top: 3px;
+        left: 65px;
+    }
+}

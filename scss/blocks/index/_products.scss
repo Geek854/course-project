@@ -1,0 +1,99 @@
+.products {
+    .products__heading {
+        text-align: center;
+        margin-bottom: 6px;
+        font-size: 30px;
+        line-height: 36px;
+        color: $black-color;
+    }
+    .products__text {
+        text-align: center;
+        margin-bottom: 48px;
+        color: $light-grey;
+        @include font (14px, 17px);
+    }
+    .products__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .products__item {
+        position: relative;
+    }
+    .products__item-button {
+        @include display-align-items();
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        top: 40%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border: 1px solid white;
+        color: $white;
+        width: 140px;
+        height: 45px;
+        display: none;
+        background: rgba(0, 0, 0, 0);
+        cursor: pointer;
+    }
+    .products__item-img:before {
+        content: "";
+        width: 360px;
+        height: 420px;
+        margin-bottom: 30px;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .products__item-img:before {
+        display: none;
+    }
+    .products__item-heading {
+        text-transform: uppercase;
+        padding: 25px 0 12.5px 16px;
+        color: $blak;
+        @include font (13px, 16px);
+    }
+    .products__item-text {
+        color: $light-grey;
+        padding: 0 28px 18px 16px;
+        @include font (14px, 17px);
+    }
+    .products__item-price {
+        color: $pink-color;
+        padding-left: 16px;
+    }
+    .products__item:hover .products__item-img:before {
+        display: block;
+    }
+    .products__item:hover .products__item-button {
+        display: flex;
+    }
+    .products__button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .products__button-link {
+        border: 1px solid $pink-color;
+        color: $pink-color;
+        text-align: center;
+        text-decoration: none;
+        @include font (16px, 19px);
+        width: 211px;
+        padding-top: 14.5px;
+        padding-bottom: 13.5px;
+    }
+    .products__button-link:hover {
+        background-color: $pink-color;
+        color: $white;
+    }
+}
+
+.imges__button {
+    display: block;
+}
+
+.text__button {
+    display: block;
+}

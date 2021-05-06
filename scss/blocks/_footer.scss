@@ -1,0 +1,55 @@
+footer {
+    .footer__top {
+        background-image: url(../imges/sea.jpg);
+        min-height: 450px;
+        @include display-align-items();
+    }
+    .footer__top-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer__top-item {
+        @include display-align-items();
+        flex-direction: column;
+    }
+    .footer__top-img {
+        width: 96px;
+        height: 96px;
+    }
+    .footer__top-heading {
+        text-transform: uppercase;
+        @include font (24px, 40px, 700);
+        // font-size: 24px;
+        // line-height: 40px;
+        text-align: center;
+        color: $black-color;
+    }
+    .footer__top-text1 {
+        text-align: center;
+        @include font (20px, 24px, 400);
+        color: $black-color;
+        padding-top: 30px;
+        width: 360px;
+    }
+    .footer__top-text2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        text-align: center;
+        color: $black-color;
+    }
+    .footer__bottom {
+        background-color: $black-color;
+        min-height: 79px;
+        @include display-align-items();
+    }
+    .footer__bottom-list {
+        @include display-align-items();
+        justify-content: space-between;
+    }
+    .footer__bottom-paragraph {
+        color: $white;
+        font-size: 16px;
+    }
+}
