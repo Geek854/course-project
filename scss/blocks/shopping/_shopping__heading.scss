@@ -1,0 +1,12 @@
+.shopping__heading {
+    @include display-align-items();
+    height: 148px;
+    background-color: $light-pink-color;
+}
+
+.shopping__heading-text {
+    display: block;
+    text-transform: uppercase;
+    @include font (24px, 29px, 400);
+    color: $pink-color;
+}

@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    margin: 32px;
+    .form__email {
+        background-color: $light-light-grey;
+        width: 256px;
+        border: none;
+        border-top-left-radius: 150px;
+        border-bottom-left-radius: 150px;
+        padding-left: 22px;
+        font-size: 14px;
+        line-height: 17px;
+        color: $black-color;
+    }
+    .form__submit {
+        background-color: $pink-color;
+        width: 100px;
+        height: 49px;
+        border: none;
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 150px;
+        font-size: 14px;
+        line-height: 17px;
+        color: $white;
+    }
+}

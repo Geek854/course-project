@@ -1,0 +1,31 @@
+.advantages {
+    .advantages__list {
+        display: flex;
+        justify-content: center;
+        background-color: $black-color;
+        margin-top: 95.5px;
+    }
+    .advantages__item {
+        @include display-align-items();
+        flex-direction: column;
+        width: 360px;
+        padding: 104px 0 104px 0;
+        margin: 0 15px 0 15px;
+    }
+    .advantages__item-imges {
+        width: 47px;
+        height: 35px;
+    }
+    .advantages__item-header {
+        color: $white;
+        padding: 25px 0 16px 0;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .advantages__item-text {
+        color: $white;
+        text-align: center;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
