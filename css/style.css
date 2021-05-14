@@ -511,6 +511,16 @@ footer .footer__bottom-paragraph {
   }
 }
 
+@media (max-width: 767px) {
+  footer .footer__top-text1 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .form .form__email {
+    width: 241px;
+  }
+}
+
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -540,6 +550,12 @@ footer .footer__bottom-paragraph {
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .form .form__email {
+    width: 241px;
+  }
 }
 
 .brand {
