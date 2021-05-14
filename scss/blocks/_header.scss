@@ -60,3 +60,19 @@
         display: block;
     }
 }
+
+@media (max-width: $max-tablet-widht) {
+    .header .header__logo {
+        margin: 0 41px 0 35px;
+    }
+    .header .header__link {
+        margin: 0 35px 0 0;
+    }
+    .header .header__menu-button {
+        margin: 0 35px 0 0;
+    }
+    .header .header__nav:before {
+        content: "5";
+        right: 25px;
+    }
+}

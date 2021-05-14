@@ -51,3 +51,19 @@ footer {
         font-size: 16px;
     }
 }
+
+@media (max-width: $max-tablet-widht) {
+    .footer .footer__top-list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer .footer__top-item {
+        margin-top: 68px;
+    }
+    .footer .footer__top {
+        background-image: url(../imges/sea150.jpg);
+        min-height: 614px;
+        align-items: flex-start;
+    }
+}
