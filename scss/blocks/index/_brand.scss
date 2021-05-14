@@ -55,3 +55,16 @@
         left: 40px;
     }
 }
+
+@media (max-width: $max-mobil-widht) {
+    .brand .brand__image {
+        display: none;
+    }
+    .brand .brand__heading-wrapper {
+        padding: 139px 0 139px 68px;
+    }
+    .brand .brand__heading-wrapper:before {
+        top: 139px;
+        left: 45px;
+    }
+}

@@ -199,6 +199,7 @@ body {
   }
   .container__mini {
     max-width: 232px;
+    max-height: 167px;
     margin-bottom: 19px;
   }
 }
@@ -209,6 +210,10 @@ body {
   }
   .container {
     max-width: 343px;
+  }
+  .container__mini {
+    max-width: 360px;
+    margin-bottom: 30px;
   }
 }
 
@@ -280,6 +285,9 @@ body {
   }
   .header .header__menu-button {
     margin: 0 35px 0 0;
+  }
+  .header .header__nav:before {
+    right: 25px;
   }
 }
 
@@ -619,6 +627,19 @@ footer .footer__bottom-paragraph {
   }
 }
 
+@media (max-width: 767px) {
+  .brand .brand__image {
+    display: none;
+  }
+  .brand .brand__heading-wrapper {
+    padding: 139px 0 139px 68px;
+  }
+  .brand .brand__heading-wrapper:before {
+    top: 139px;
+    left: 45px;
+  }
+}
+
 .stocks .stocks__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -651,12 +672,10 @@ footer .footer__bottom-paragraph {
 
 .stocks .stocks__item--man {
   background-image: url(../imges/businessMan.jpg);
-  /*man.jpg*/
 }
 
 .stocks .stocks__item--kids {
   background-image: url(../imges/childWithGlasses.jpg);
-  /*kids.jpg*/
 }
 
 .stocks .stocks__item--accessories {
@@ -664,7 +683,6 @@ footer .footer__bottom-paragraph {
   margin-top: 30px;
   min-height: 180px;
   background-image: url(../imges/differentSubjects.jpg);
-  /*accessories.jpg*/
 }
 
 .stocks .stocks__item-link {
@@ -684,6 +702,58 @@ footer .footer__bottom-paragraph {
   text-align: center;
   font-size: 28px;
   margin-top: 14px;
+}
+
+@media (max-width: 1599px) {
+  .stocks .stocks__item {
+    min-height: 160px;
+  }
+  .stocks .stocks__item--woman {
+    background-image: url(../imges/blondGeirl64.jpg);
+  }
+  .stocks .stocks__item--man {
+    background-image: url(../imges/businessMan64.jpg);
+  }
+  .stocks .stocks__item--kids {
+    background-image: url(../imges/childWithGlasses64.jpg);
+  }
+  .stocks .stocks__item--accessories {
+    width: 100%;
+    margin-top: 30px;
+    min-height: 110px;
+    background-image: url(../imges/differentSubjects64.jpg);
+  }
+}
+
+@media (max-width: 767px) {
+  .stocks .stocks__item {
+    width: 360px;
+    min-height: 260px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .stocks .stocks__item--woman {
+    background-image: url(../imges/blondGeirl.jpg);
+  }
+  .stocks .stocks__item--man {
+    background-image: url(../imges/businessMan.jpg);
+  }
+  .stocks .stocks__item--kids {
+    background-image: url(../imges/childWithGlasses.jpg);
+  }
+  .stocks .stocks__item--accessories {
+    width: 100%;
+    margin-top: 30px;
+    min-height: 110px;
+    background-image: url(../imges/differentSubjects64.jpg);
+  }
 }
 
 .products .products__heading {
@@ -900,6 +970,12 @@ footer .footer__bottom-paragraph {
   }
   .advantages .advantages__item-text--margin {
     margin: 0 0 64px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .advantages .advantages__item-text--margin {
+    margin: 0 0 81px 0;
   }
 }
 

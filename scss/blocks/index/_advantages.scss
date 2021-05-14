@@ -46,3 +46,9 @@
         margin: 0 0 64px 0;
     }
 }
+
+@media (max-width:$max-mobil-widht) {
+    .advantages .advantages__item-text--margin {
+        margin: 0 0 81px 0;
+    }
+}

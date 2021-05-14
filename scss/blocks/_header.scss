@@ -49,6 +49,9 @@
     .header .header__menu-button {
         margin: 0 35px 0 0;
     }
+    .header .header__nav:before {
+        right: 25px;
+    }
 }
 
 @media (max-width: $max-mobil-widht) {
