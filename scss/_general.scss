@@ -47,8 +47,8 @@ body {
 
 .background {
     position: absolute;
-    width: 1600px;
-    height: 765px;
+    max-width: 1600px;
+    max-height: 765px;
     top: 53px;
     left: -1197px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -65,5 +65,14 @@ body {
     .container__mini {
         max-width: 232px;
         margin-bottom: 19px;
+    }
+}
+
+@media (max-width:$max-mobil-widht) {
+    .container-main {
+        max-width: 375px;
+    }
+    .container {
+        max-width: 343px;
     }
 }

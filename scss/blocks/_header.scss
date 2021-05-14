@@ -37,28 +37,6 @@
         top: -5px;
         right: -7px;
     }
-    .header__navigation {
-        display: none;
-    }
-    .header__navigation-posicion {
-        position: absolute;
-        justify-content: center;
-        width: 230px;
-        height: 695px;
-        background-color: $white;
-        z-index: 3;
-        top: 53px;
-        padding: 35px;
-    }
-    .header__navigation-title {
-        text-transform: uppercase;
-        color: $blak;
-        padding: 0px 0 14px 0;
-        font-weight: 700;
-    }
-    .header__menu-button:focus+.header__navigation {
-        display: block;
-    }
 }
 
 @media (max-width: $max-tablet-widht) {
@@ -71,8 +49,20 @@
     .header .header__menu-button {
         margin: 0 35px 0 0;
     }
+}
+
+@media (max-width: $max-mobil-widht) {
+    .header .header__logo {
+        margin: 0 41px 0 0px;
+    }
+    .header .header__menu-button {
+        margin: 0;
+    }
+    .header .header__link {
+        display: none;
+    }
     .header .header__nav:before {
         content: "5";
-        right: 25px;
+        display: none;
     }
 }

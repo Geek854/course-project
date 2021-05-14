@@ -147,7 +147,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -182,8 +182,8 @@ body {
 
 .background {
   position: absolute;
-  width: 1600px;
-  height: 765px;
+  max-width: 1600px;
+  max-height: 765px;
   top: 53px;
   left: -1197px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -200,6 +200,15 @@ body {
   .container__mini {
     max-width: 232px;
     margin-bottom: 19px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-main {
+    max-width: 375px;
+  }
+  .container {
+    max-width: 343px;
   }
 }
 
@@ -262,11 +271,39 @@ body {
   right: -7px;
 }
 
-.header .header__navigation {
+@media (max-width: 1599px) {
+  .header .header__logo {
+    margin: 0 41px 0 35px;
+  }
+  .header .header__link {
+    margin: 0 35px 0 0;
+  }
+  .header .header__menu-button {
+    margin: 0 35px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header .header__logo {
+    margin: 0 41px 0 0px;
+  }
+  .header .header__menu-button {
+    margin: 0;
+  }
+  .header .header__link {
+    display: none;
+  }
+  .header .header__nav:before {
+    content: "5";
+    display: none;
+  }
+}
+
+.header__navigation {
   display: none;
 }
 
-.header .header__navigation-posicion {
+.header__navigation-posicion {
   position: absolute;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -279,31 +316,15 @@ body {
   padding: 35px;
 }
 
-.header .header__navigation-title {
+.header__navigation-title {
   text-transform: uppercase;
   color: #000000;
   padding: 0px 0 14px 0;
   font-weight: 700;
 }
 
-.header .header__menu-button:focus + .header__navigation {
+.header__menu-button:focus + .header__navigation {
   display: block;
-}
-
-@media (max-width: 1599px) {
-  .header .header__logo {
-    margin: 0 41px 0 35px;
-  }
-  .header .header__link {
-    margin: 0 35px 0 0;
-  }
-  .header .header__menu-button {
-    margin: 0 35px 0 0;
-  }
-  .header .header__nav:before {
-    content: "5";
-    right: 25px;
-  }
 }
 
 .navigation-item__link {
@@ -331,6 +352,32 @@ body {
 
 .navigation-item__sublist-link:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 1599px) {
+  .header .header__navigation-posicion {
+    position: absolute;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 700px;
+    height: 300px;
+    background-color: #FFFFFF;
+    z-index: 3;
+    top: 53px;
+    right: -17px;
+    padding: 35px;
+  }
+  .header__navigation-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header__navigation-title {
+    display: none;
+  }
 }
 
 footer .footer__top {
