@@ -512,12 +512,21 @@ footer .footer__bottom-paragraph {
 }
 
 @media (max-width: 767px) {
-  footer .footer__top-text1 {
+  .footer .footer__top-text1 {
     font-size: 18px;
     line-height: 22px;
   }
-  .form .form__email {
-    width: 241px;
+  .footer .footer__bottom-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer .footer__bottom-item--margin1 {
+    margin: 40px 0 40px 0;
+  }
+  .footer .footer__bottom-item--margin2 {
+    margin: 0 0 9px 0;
   }
 }
 
@@ -554,7 +563,7 @@ footer .footer__bottom-paragraph {
 
 @media (max-width: 767px) {
   .form .form__email {
-    width: 241px;
+    width: 220px;
   }
 }
 
