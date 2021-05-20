@@ -147,7 +147,7 @@ body {
 }
 
 .container {
-  width: 1140px;
+  width: 71%;
   margin: 0 auto;
 }
 
@@ -192,10 +192,10 @@ body {
 
 @media (max-width: 1599px) {
   .container-main {
-    max-width: 768px;
+    max-width: 100%;
   }
   .container {
-    max-width: 736px;
+    max-width: 95%;
   }
   .container__mini {
     max-width: 232px;
@@ -206,10 +206,10 @@ body {
 
 @media (max-width: 767px) {
   .container-main {
-    max-width: 375px;
+    max-width: 100%;
   }
   .container {
-    max-width: 343px;
+    max-width: 92%;
   }
   .container__mini {
     max-width: 360px;
