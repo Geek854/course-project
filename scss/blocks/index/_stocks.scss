@@ -67,7 +67,7 @@
 
 @media (max-width:$max-mobil-widht) {
     .stocks .stocks__item {
-        width: 360px;
+        width: 31%;
         min-height: 260px;
         @include display-align-items();
         justify-content: center;
@@ -88,3 +88,5 @@
         background-image: url(../imges/differentSubjects64.jpg);
     }
 }
+
+31
