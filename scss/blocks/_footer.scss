@@ -51,3 +51,35 @@ footer {
         font-size: 16px;
     }
 }
+
+@media (max-width: $max-tablet-widht) {
+    .footer .footer__top-list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer .footer__top-item {
+        margin-top: 68px;
+    }
+    .footer .footer__top {
+        background-image: url(../imges/sea150.jpg);
+        min-height: 614px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:$max-mobil-widht) {
+    .footer .footer__top-text1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .footer .footer__bottom-list {
+        flex-direction: column-reverse;
+    }
+    .footer .footer__bottom-item--margin1 {
+        margin: 40px 0 40px 0;
+    }
+    .footer .footer__bottom-item--margin2 {
+        margin: 0 0 9px 0;
+    }
+}

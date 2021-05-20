@@ -16,18 +16,15 @@
     }
     .stocks__item--man {
         background-image: url(../imges/businessMan.jpg);
-        /*man.jpg*/
     }
     .stocks__item--kids {
         background-image: url(../imges/childWithGlasses.jpg);
-        /*kids.jpg*/
     }
     .stocks__item--accessories {
         width: 100%;
         margin-top: 30px;
         min-height: 180px;
         background-image: url(../imges/differentSubjects.jpg);
-        /*accessories.jpg*/
     }
     .stocks__item-link {
         text-decoration: none;
@@ -44,5 +41,50 @@
         text-align: center;
         font-size: 28px;
         margin-top: 14px;
+    }
+}
+
+@media (max-width: $max-tablet-widht) {
+    .stocks .stocks__item {
+        min-height: 160px;
+    }
+    .stocks .stocks__item--woman {
+        background-image: url(../imges/blondGeirl64.jpg);
+    }
+    .stocks .stocks__item--man {
+        background-image: url(../imges/businessMan64.jpg);
+    }
+    .stocks .stocks__item--kids {
+        background-image: url(../imges/childWithGlasses64.jpg);
+    }
+    .stocks .stocks__item--accessories {
+        width: 100%;
+        margin-top: 30px;
+        min-height: 110px;
+        background-image: url(../imges/differentSubjects64.jpg);
+    }
+}
+
+@media (max-width:$max-mobil-widht) {
+    .stocks .stocks__item {
+        width: 360px;
+        min-height: 260px;
+        @include display-align-items();
+        justify-content: center;
+    }
+    .stocks .stocks__item--woman {
+        background-image: url(../imges/blondGeirl.jpg);
+    }
+    .stocks .stocks__item--man {
+        background-image: url(../imges/businessMan.jpg);
+    }
+    .stocks .stocks__item--kids {
+        background-image: url(../imges/childWithGlasses.jpg);
+    }
+    .stocks .stocks__item--accessories {
+        width: 100%;
+        margin-top: 30px;
+        min-height: 110px;
+        background-image: url(../imges/differentSubjects64.jpg);
     }
 }

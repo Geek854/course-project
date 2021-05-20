@@ -24,3 +24,9 @@
         color: $white;
     }
 }
+
+@media (max-width:$max-mobil-widht) {
+    .form .form__email {
+        width: 220px;
+    }
+}
