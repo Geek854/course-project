@@ -72,7 +72,7 @@ body {
 
 @media (max-width:$max-mobil-widht) {
     .container-main {
-        max-width: 375px;
+        min-width: 375px;
     }
     .container {
         max-width: 92%;

@@ -204,7 +204,7 @@ body {
 
 @media (max-width: 767px) {
   .container-main {
-    max-width: 375px;
+    min-width: 375px;
   }
   .container {
     max-width: 92%;
@@ -1038,6 +1038,12 @@ footer .footer__bottom-paragraph {
   color: #F16D7F;
 }
 
+@media (max-width: 767px) {
+  .heading__registration-text {
+    text-align: center;
+  }
+}
+
 .registration-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1073,7 +1079,7 @@ footer .footer__bottom-paragraph {
 }
 
 .registration__paragraph {
-  width: 652px;
+  min-width: 652px;
   font-size: 24px;
   line-height: 29px;
   font-weight: 300;
@@ -1187,7 +1193,6 @@ footer .footer__bottom-paragraph {
 
 .radio .radio__label {
   position: relative;
-  display: block;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -1216,6 +1221,51 @@ footer .footer__bottom-paragraph {
 
 .female {
   margin-left: 45px;
+}
+
+.other {
+  display: none;
+  margin-left: 45px;
+}
+
+@media (max-width: 1599px) {
+  .other {
+    display: block;
+    margin-left: 45px;
+  }
+  .registration__form {
+    margin-right: 22px;
+  }
+  .registration__text {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 40px;
+  }
+  .registration__paragraph {
+    min-width: 354px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .registration__item-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media (max-width: 767px) {
+  .registration-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px 0 0 22px;
+  }
+  .registration__form {
+    margin-left: 8px;
+  }
 }
 
 .shopping__heading {
