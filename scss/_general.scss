@@ -12,17 +12,18 @@ body {
 }
 
 .container {
-    width: 71%;
+    width: 1140px;
     margin: 0 auto;
 }
 
 .container__mini {
-    max-width: 360px;
+    max-width: 32%;
     margin-bottom: 30px;
 }
 
 .container__mini-products {
-    max-width: 360px;
+    width: 32%;
+    min-width: 360px;
     margin-bottom: 30px;
 }
 
@@ -56,22 +57,22 @@ body {
 }
 
 @media (max-width: $max-tablet-widht) {
-    .container-main {
-        max-width: 100%;
-    }
+    // .container-main {
+    //     max-width: 1140px;
+    // }
     .container {
         max-width: 95%;
     }
     .container__mini {
-        max-width: 232px;
-        max-height: 167px;
+        max-width: 32%;
+        min-height: 167px;
         margin-bottom: 19px;
     }
 }
 
 @media (max-width:$max-mobil-widht) {
     .container-main {
-        max-width: 100%;
+        max-width: 375px;
     }
     .container {
         max-width: 92%;
