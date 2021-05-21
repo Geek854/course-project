@@ -1289,21 +1289,201 @@ footer .footer__bottom-paragraph {
   color: #F16D7F;
 }
 
+@media (max-width: 767px) {
+  .shopping__heading-text {
+    text-align: center;
+  }
+}
+
 .shopping__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.shopping__list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .shopping__form {
   width: 360px;
   height: 600px;
   border: 1px solid black;
+  margin: 96px 0 0 130px;
+}
+
+.shopping__cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 96px 0 89px 0;
+  -webkit-box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+}
+
+.shopping__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shopping__list-text {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  font-style: font-style;
+  color: #222222;
+  text-transform: uppercase;
+  width: 260px;
+  margin: 22px 97px 42px 31px;
+}
+
+.item__mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item__mini-paragraph {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: font-style;
+  color: #222222;
+  margin: 0 0 6px 31px;
+}
+
+.item__mini-paragraph-value {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: font-style;
+  color: #222222;
+  margin: 0 0 6px 4px;
+}
+
+.item__mini-paragraph-number {
+  margin: 0 0 0 24px;
+  width: 43px;
+  height: 24px;
+  border: 1px solid #EAEAEA;
+}
+
+.item__mini-paragraph-number::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: font-style;
+}
+
+.item__mini-paragraph-number::-moz-placeholder {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: font-style;
+}
+
+.item__mini-paragraph-number:-moz-placeholder {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: font-style;
+}
+
+.item__mini-paragraph-number:-ms-input-placeholder {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: font-style;
+}
+
+.item__mini-paragraph-number::-webkit-input-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.item__mini-paragraph-number::-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.item__mini-paragraph-number:-moz-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.item__mini-paragraph-number:-ms-input-placeholder {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.item__mini-paragraph-number:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.item__mini-paragraph-number:focus::-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.item__mini-paragraph-number:focus:-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.item__mini-paragraph-number:focus:-ms-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.shopping__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 128px 0;
+}
+
+.shopping__button-clear {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: font-style;
+  text-transform: uppercase;
+  border: 1px solid #A4A4A4;
+  width: 235px;
+  height: 50px;
+  padding: 16px, 40px, 16px 40px;
+  background-color: white;
+  color: #000000;
+}
+
+.shopping__button-continue {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: font-style;
+  text-transform: uppercase;
+  border: 1px solid #A4A4A4;
+  width: 225px;
+  height: 50px;
+  padding: 16px, 40px, 16px 40px;
+  background-color: white;
+  color: #000000;
+  margin: 0 0 0 192px;
 }
 /*# sourceMappingURL=style.css.map */

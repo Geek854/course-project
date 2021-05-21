@@ -96,8 +96,8 @@
                 <h1 class="shopping__heading-text">shopping cart</h1>
             </div>
         </section>
-        <section class="shopping__bottom container">
-            <div class="shopping__cart">
+        <form action="#" class="shopping__bottom container">
+            <div class="shopping__bottom-cart">
                 <div class="shopping__cart">
                     <img src="./imges/RemanInHatAndStripedSweater.jpg" alt="RemanInHatAndStripedSweater" width="262" height="306">
                     <ul class="shopping__list">
@@ -106,19 +106,19 @@
                             <ul class="list__mini">
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Price:</p>
-                                    <p class="item__mini-paragraph">$300 </p>
+                                    <p class="item__mini-paragraph-value">$300 </p>
                                 </li>
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Color:</p>
-                                    <p class="item__mini-paragraph">>Red</p>
+                                    <p class="item__mini-paragraph-value">Red</p>
                                 </li>
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Size:</p>
-                                    <p class="item__mini-paragraph">Xl</p>
+                                    <p class="item__mini-paragraph-value">Xl</p>
                                 </li>
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Quantity:</p>
-                                    <p class="item__mini-paragraph">2</p>
+                                    <input class="item__mini-paragraph-number" type="text" placeholder="2" required>
                                 </li>
                             </ul>
                         </li>
@@ -131,30 +131,39 @@
                             <ul class="list__mini">
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Price:</p>
-                                    <p class="item__mini-paragraph">$300 </p>
+                                    <p class="item__mini-paragraph-value">$300 </p>
                                 </li>
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Color:</p>
-                                    <p class="item__mini-paragraph">>Red</p>
+                                    <p class="item__mini-paragraph-value">Red</p>
                                 </li>
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Size:</p>
-                                    <p class="item__mini-paragraph">Xl</p>
+                                    <p class="item__mini-paragraph-value">Xl</p>
                                 </li>
                                 <li class="item__mini">
                                     <p class="item__mini-paragraph">Quantity:</p>
-                                    <p class="item__mini-paragraph">2</p>
+                                    <input class="item__mini-paragraph-number" type="text" placeholder="2" required>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
-                <a class="shopping__link" href="#">clear shopping cart</a>
-                <button class="shopping__button" type="button">continue shopping</button>
+                <div class="shopping__button">
+                    <button class="shopping__button-clear" type="button"> clear shopping cart</button>
+                    <button class="shopping__button-continue" type="button">continue shopping</button>
+                </div>
             </div>
             <div class="shopping__form">
+                <fieldset>
+                    <legend class="shopping__form-text">shipping adress</legend>
+                    <input class="shopping__form-form" type="text" placeholder="Bangladesh" required>
+                    <input class="shopping__form-form" type="text" placeholder="State" required>
+                    <input class="shopping__form-form" type="text" placeholder="Postcode / Zip" required>
+                    <button class="shopping__form-button" type="submit">get a quote</button>
+                </fieldset>
             </div>
-        </section>
+        </form>
     </main>
     <footer class="footer ">
         <div class="footer__top container-main">
