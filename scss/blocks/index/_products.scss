@@ -15,11 +15,15 @@
     .products__list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .products__item {
         position: relative;
     }
+    // .products__img {
+    //     width: 100%;
+    //     height: auto;
+    // }
     .products__item-button {
         @include display-align-items();
         justify-content: space-around;
@@ -102,3 +106,10 @@
 .text__button {
     display: block;
 }
+
+@media (max-width: $max-tablet-widht) {
+    width: 32%;
+    min-width: 360px;
+}
+
+@media (max-width: $max-mobil-widht) {}

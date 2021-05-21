@@ -10,3 +10,9 @@
     @include font (24px, 29px, 400);
     color: $pink-color;
 }
+
+@media (max-width:$max-mobil-widht) {
+    .heading__registration-text {
+        text-align: center;
+    }
+}

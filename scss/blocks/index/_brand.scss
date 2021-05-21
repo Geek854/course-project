@@ -2,6 +2,10 @@
     display: flex;
     background-color: $light-pink-color;
     position: relative;
+    .brand__image {
+        width: 50%;
+        height: auto;
+    }
     .brand__heading-wrapper {
         background-color: $light-pink-color;
         flex-grow: 1;
@@ -33,7 +37,7 @@
 
 @media (max-width: $max-tablet-widht) {
     .brand .brand__image {
-        max-width: 385px;
+        max-width: 50%;
     }
     .brand .brand__heading {
         @include font (44px, 53px, 900);
