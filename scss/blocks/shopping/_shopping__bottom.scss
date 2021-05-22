@@ -4,9 +4,6 @@
 }
 
 .shopping__form {
-    width: 360px;
-    height: 600px;
-    border: 1px solid black;
     margin: 96px 0 0 130px;
 }
 
@@ -55,39 +52,27 @@
 .item__mini-paragraph-number::-webkit-input-placeholder {
     text-align: center;
     @include font (18px, 22px, 400);
-}
-
-.item__mini-paragraph-number::-moz-placeholder {
-    text-align: center;
-    @include font (18px, 22px, 400);
-}
-
-.item__mini-paragraph-number:-moz-placeholder {
-    text-align: center;
-    @include font (18px, 22px, 400);
-}
-
-.item__mini-paragraph-number:-ms-input-placeholder {
-    text-align: center;
-    @include font (18px, 22px, 400);
-}
-
-.item__mini-paragraph-number::-webkit-input-placeholder {
     opacity: 1;
     transition: opacity 0.3s ease;
 }
 
 .item__mini-paragraph-number::-moz-placeholder {
+    text-align: center;
+    @include font (18px, 22px, 400);
     opacity: 1;
     transition: opacity 0.3s ease;
 }
 
 .item__mini-paragraph-number:-moz-placeholder {
+    text-align: center;
+    @include font (18px, 22px, 400);
     opacity: 1;
     transition: opacity 0.3s ease;
 }
 
 .item__mini-paragraph-number:-ms-input-placeholder {
+    text-align: center;
+    @include font (18px, 22px, 400);
     opacity: 1;
     transition: opacity 0.3s ease;
 }
@@ -138,4 +123,48 @@
     background-color: white;
     color: #000000;
     margin: 0 0 0 192px;
+}
+
+.shopping__form-text {
+    margin-bottom: 20px;
+    @include font (16px, 19px, 300);
+    text-transform: uppercase;
+}
+
+.shopping__form-form {
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 1px solid #A4A4A4;
+}
+
+.shopping__form-form::-webkit-input-placeholder {
+    @include font (13px, 16px, 300);
+    padding: 17px;
+}
+
+.shopping__form-form::-moz-placeholder {
+    @include font (13px, 16px, 300);
+    padding: 17px;
+}
+
+.shopping__form-form:-moz-placeholder {
+    @include font (13px, 16px, 300);
+    padding: 17px;
+}
+
+.shopping__form-form:-ms-input-placeholder {
+    @include font (13px, 16px, 300);
+    padding: 17px;
+}
+
+.shopping__form-button {
+    @include font (11px, 13px, 300);
+    text-transform: uppercase;
+    color: #4A4A4A;
+    border: 1px solid #A4A4A4;
+    padding: 10px, 14px, 12px 15px;
+    width: 100px;
+    height: 35px;
+    background: #FFFFFF;
 }
