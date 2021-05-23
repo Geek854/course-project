@@ -1312,6 +1312,20 @@ footer .footer__bottom-paragraph {
   width: 360px;
 }
 
+.shopping__cart {
+  position: relative;
+}
+
+.shopping__cart::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  right: 22px;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../imges/cross.svg);
+}
+
 .shopping__cart1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1676,6 +1690,13 @@ footer .footer__bottom-paragraph {
 }
 
 @media (max-width: 767px) {
+  .shopping__cart::before {
+    top: 17px;
+    right: 12px;
+    width: 10px;
+    height: 10px;
+    background-size: 10px, 10px;
+  }
   .shopping__list {
     min-width: 214px;
   }

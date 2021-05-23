@@ -12,6 +12,20 @@
             width: 360px;
         }
         
+        .shopping__cart {
+            position: relative;
+        }
+        
+        .shopping__cart::before {
+            content: "";
+            position: absolute;
+            top: 28px;
+            right: 22px;
+            width: 18px;
+            height: 18px;
+            background-image: url(../../../imges/cross.svg);
+        }
+        
         .shopping__cart1 {
             display: flex;
             margin: 0 0 40px 0;
@@ -273,6 +287,13 @@
         }
         
         @media (max-width:$max-mobil-widht) {
+            .shopping__cart::before {
+                top: 17px;
+                right: 12px;
+                width: 10px;
+                height: 10px;
+                background-size: 10px, 10px;
+            }
             .shopping__list {
                 min-width: 214px;
             }
