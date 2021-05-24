@@ -17,34 +17,39 @@
     padding-left: 20px;
 }
 
-.registration__form {
+.registration-main__form {
     margin-right: 128px;
 }
 
-.registration__text {
+.registration-main__form-item {
+    display: block;
+    margin: 15px 0 40px 0;
+}
+
+.registration-main__main-text {
     text-transform: uppercase;
     @include font (24px, 29px, 300);
     color: $blak;
 }
 
-.registration__paragraph {
+.registration-main__main-paragraph {
     min-width: 652px;
     @include font (24px, 29px, 300);
     padding: 22px 0 21px 0;
 }
 
-.registration__item {
+.registration-main__main-item {
     padding-top: 16px;
 }
 
-.registration__item-text {
+.registration-main__main-item-text {
     position: relative;
     @include font (24px, 29px, 300);
     color: $blak;
     padding-left: 42px;
 }
 
-.registration__item-text::before {
+.registration-main__main-item-text::before {
     content: "";
     position: absolute;
     width: 20px;
@@ -54,26 +59,26 @@
     top: 8px;
 }
 
-.registration__form-text {
+.registration-main__form-text {
     @include font (16px, 19px, 300);
     color: #222222;
 }
 
-.registration__form-form {
+.registration-main__form-form {
     display: block;
-    width: 360px;
+    width: 354px;
     height: 45px;
     margin-top: 20px;
     border: 1px solid #A4A4A4;
 }
 
-.registration__form-form::placeholder {
+.registration-main__form-form::placeholder {
     @include font (13px, 16px, 300);
     color: #B1B1B1;
     padding-left: 17px;
 }
 
-.registration__form-item {
+.registration-main__form {
     @include font (13px, 16px, 300);
     color: #B1B1B1;
     margin-top: 15.5px;
@@ -131,20 +136,20 @@
         display: block;
         margin-left: 45px;
     }
-    .registration__form {
+    .registration-main__form {
         margin-right: 22px;
     }
-    .registration__text {
+    .registration-main__main-text {
         font-size: 16px;
         line-height: 19px;
         margin-top: 40px;
     }
-    .registration__paragraph {
+    .registration-main__main-paragraph {
         min-width: 354px;
         font-size: 16px;
         line-height: 19px;
     }
-    .registration__item-text {
+    .registration-main__main-item-text {
         font-size: 16px;
         line-height: 19px;
     }
@@ -155,8 +160,12 @@
         flex-direction: column;
         align-items: center;
         padding: 40px 0 0 22px;
+        margin: 0;
     }
-    .registration__form {
+    .registration-main__form {
         margin-left: 8px;
+    }
+    .registration-main__main-list {
+        margin-bottom: 40px;
     }
 }

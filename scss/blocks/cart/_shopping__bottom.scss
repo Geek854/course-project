@@ -56,73 +56,73 @@
             margin: 22px 97px 42px 31px;
         }
         
-        .item__mini {
+        .shopping__item-mini {
             display: flex;
         }
         
-        .item__mini-paragraph {
+        .shopping__item-mini-paragraph {
             @include font (22px, 26px, 400);
             color: $black-color;
             margin: 0 0 6px 31px;
         }
         
-        .item__mini-paragraph-value {
+        .shopping__item-mini-paragraph-value {
             @include font (22px, 26px, 400);
             color: $black-color;
             margin: 0 0 6px 4px;
         }
         
-        .item__mini-paragraph-number {
+        .shopping__item-mini-paragraph-number {
             margin: 0 0 0 24px;
             width: 43px;
             height: 24px;
             border: 1px solid #EAEAEA;
         }
         
-        .item__mini-paragraph-number::-webkit-input-placeholder {
+        .shopping__item-mini-paragraph-number::-webkit-input-placeholder {
             text-align: center;
             @include font (18px, 22px, 400);
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         
-        .item__mini-paragraph-number::-moz-placeholder {
+        .shopping__item-mini-paragraph-number::-moz-placeholder {
             text-align: center;
             @include font (18px, 22px, 400);
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         
-        .item__mini-paragraph-number:-moz-placeholder {
+        .shopping__item-mini-paragraph-number:-moz-placeholder {
             text-align: center;
             @include font (18px, 22px, 400);
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         
-        .item__mini-paragraph-number:-ms-input-placeholder {
+        .shopping__item-mini-paragraph-number:-ms-input-placeholder {
             text-align: center;
             @include font (18px, 22px, 400);
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         
-        .item__mini-paragraph-number:focus::-webkit-input-placeholder {
+        .shopping__item-mini-paragraph-number:focus::-webkit-input-placeholder {
             opacity: 0;
             transition: opacity 0.3s ease;
         }
         
-        .item__mini-paragraph-number:focus::-moz-placeholder {
+        .shopping__item-mini-paragraph-number:focus::-moz-placeholder {
             opacity: 0;
             transition: opacity 0.3s ease;
         }
         
-        .item__mini-paragraph-number:focus:-moz-placeholder {
+        .shopping__item-mini-paragraph-number:focus:-moz-placeholder {
             opacity: 0;
             transition: opacity 0.3s ease;
         }
         
-        .item__mini-paragraph-number:focus:-ms-input-placeholder {
+        .shopping__item-mini-paragraph-number:focus:-ms-input-placeholder {
             opacity: 0;
             transition: opacity 0.3s ease;
         }
@@ -303,31 +303,31 @@
                 width: 143px;
                 margin: 13px 53px 26px 17px;
             }
-            .item__mini-paragraph {
+            .shopping__item-mini-paragraph {
                 @include font (14px, 17px, 400);
                 color: #575757;
                 margin: 0 0 4px 17px;
             }
-            .item__mini-paragraph-value {
+            .shopping__item-mini-paragraph-value {
                 @include font (14px, 17px, 400);
                 color: #575757;
                 margin: 0 0 4px 4px;
             }
-            .item__mini-paragraph-number {
+            .shopping__item-mini-paragraph-number {
                 width: 24px;
                 height: 15px;
                 border: 1px solid #EAEAEA;
             }
-            .item__mini-paragraph-number::-webkit-input-placeholder {
+            .shopping__item-mini-paragraph-number::-webkit-input-placeholder {
                 @include font (10px, 12px, 400);
             }
-            .item__mini-paragraph-number::-moz-placeholder {
+            .shopping__item-mini-paragraph-number::-moz-placeholder {
                 @include font (10px, 12px, 400);
             }
-            .item__mini-paragraph-number:-moz-placeholder {
+            .shopping__item-mini-paragraph-number:-moz-placeholder {
                 @include font (10px, 12px, 400);
             }
-            .item__mini-paragraph-number:-ms-input-placeholder {
+            .shopping__item-mini-paragraph-number:-ms-input-placeholder {
                 @include font (10px, 12px, 400);
             }
             .shopping__button-continue {

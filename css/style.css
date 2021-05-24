@@ -930,11 +930,11 @@ footer .footer__bottom-paragraph {
   color: #FFFFFF;
 }
 
-.imges__button {
+.products__item-button-imges {
   display: block;
 }
 
-.text__button {
+.products__item-button-text {
   display: block;
 }
 
@@ -1017,7 +1017,7 @@ footer .footer__bottom-paragraph {
   }
 }
 
-.heading__registration {
+.heading-registration {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1028,7 +1028,7 @@ footer .footer__bottom-paragraph {
   background-color: #F1E4E6;
 }
 
-.heading__registration-text {
+.heading-registration-text {
   display: block;
   text-transform: uppercase;
   font-size: 24px;
@@ -1039,7 +1039,7 @@ footer .footer__bottom-paragraph {
 }
 
 @media (max-width: 767px) {
-  .heading__registration-text {
+  .heading-registration-text {
     text-align: center;
   }
 }
@@ -1065,11 +1065,16 @@ footer .footer__bottom-paragraph {
   padding-left: 20px;
 }
 
-.registration__form {
+.registration-main__form {
   margin-right: 128px;
 }
 
-.registration__text {
+.registration-main__form-item {
+  display: block;
+  margin: 15px 0 40px 0;
+}
+
+.registration-main__main-text {
   text-transform: uppercase;
   font-size: 24px;
   line-height: 29px;
@@ -1078,7 +1083,7 @@ footer .footer__bottom-paragraph {
   color: #000000;
 }
 
-.registration__paragraph {
+.registration-main__main-paragraph {
   min-width: 652px;
   font-size: 24px;
   line-height: 29px;
@@ -1087,11 +1092,11 @@ footer .footer__bottom-paragraph {
   padding: 22px 0 21px 0;
 }
 
-.registration__item {
+.registration-main__main-item {
   padding-top: 16px;
 }
 
-.registration__item-text {
+.registration-main__main-item-text {
   position: relative;
   font-size: 24px;
   line-height: 29px;
@@ -1101,7 +1106,7 @@ footer .footer__bottom-paragraph {
   padding-left: 42px;
 }
 
-.registration__item-text::before {
+.registration-main__main-item-text::before {
   content: "";
   position: absolute;
   width: 20px;
@@ -1111,7 +1116,7 @@ footer .footer__bottom-paragraph {
   top: 8px;
 }
 
-.registration__form-text {
+.registration-main__form-text {
   font-size: 16px;
   line-height: 19px;
   font-weight: 300;
@@ -1119,15 +1124,15 @@ footer .footer__bottom-paragraph {
   color: #222222;
 }
 
-.registration__form-form {
+.registration-main__form-form {
   display: block;
-  width: 360px;
+  width: 354px;
   height: 45px;
   margin-top: 20px;
   border: 1px solid #A4A4A4;
 }
 
-.registration__form-form::-webkit-input-placeholder {
+.registration-main__form-form::-webkit-input-placeholder {
   font-size: 13px;
   line-height: 16px;
   font-weight: 300;
@@ -1136,7 +1141,7 @@ footer .footer__bottom-paragraph {
   padding-left: 17px;
 }
 
-.registration__form-form:-ms-input-placeholder {
+.registration-main__form-form:-ms-input-placeholder {
   font-size: 13px;
   line-height: 16px;
   font-weight: 300;
@@ -1145,7 +1150,7 @@ footer .footer__bottom-paragraph {
   padding-left: 17px;
 }
 
-.registration__form-form::-ms-input-placeholder {
+.registration-main__form-form::-ms-input-placeholder {
   font-size: 13px;
   line-height: 16px;
   font-weight: 300;
@@ -1154,7 +1159,7 @@ footer .footer__bottom-paragraph {
   padding-left: 17px;
 }
 
-.registration__form-form::placeholder {
+.registration-main__form-form::placeholder {
   font-size: 13px;
   line-height: 16px;
   font-weight: 300;
@@ -1163,7 +1168,7 @@ footer .footer__bottom-paragraph {
   padding-left: 17px;
 }
 
-.registration__form-item {
+.registration-main__form {
   font-size: 13px;
   line-height: 16px;
   font-weight: 300;
@@ -1233,20 +1238,20 @@ footer .footer__bottom-paragraph {
     display: block;
     margin-left: 45px;
   }
-  .registration__form {
+  .registration-main__form {
     margin-right: 22px;
   }
-  .registration__text {
+  .registration-main__main-text {
     font-size: 16px;
     line-height: 19px;
     margin-top: 40px;
   }
-  .registration__paragraph {
+  .registration-main__main-paragraph {
     min-width: 354px;
     font-size: 16px;
     line-height: 19px;
   }
-  .registration__item-text {
+  .registration-main__main-item-text {
     font-size: 16px;
     line-height: 19px;
   }
@@ -1262,9 +1267,13 @@ footer .footer__bottom-paragraph {
         -ms-flex-align: center;
             align-items: center;
     padding: 40px 0 0 22px;
+    margin: 0;
   }
-  .registration__form {
+  .registration-main__form {
     margin-left: 8px;
+  }
+  .registration-main__main-list {
+    margin-bottom: 40px;
   }
 }
 
@@ -1370,13 +1379,13 @@ footer .footer__bottom-paragraph {
   margin: 22px 97px 42px 31px;
 }
 
-.item__mini {
+.shopping__item-mini {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.item__mini-paragraph {
+.shopping__item-mini-paragraph {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
@@ -1385,7 +1394,7 @@ footer .footer__bottom-paragraph {
   margin: 0 0 6px 31px;
 }
 
-.item__mini-paragraph-value {
+.shopping__item-mini-paragraph-value {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
@@ -1394,14 +1403,14 @@ footer .footer__bottom-paragraph {
   margin: 0 0 6px 4px;
 }
 
-.item__mini-paragraph-number {
+.shopping__item-mini-paragraph-number {
   margin: 0 0 0 24px;
   width: 43px;
   height: 24px;
   border: 1px solid #EAEAEA;
 }
 
-.item__mini-paragraph-number::-webkit-input-placeholder {
+.shopping__item-mini-paragraph-number::-webkit-input-placeholder {
   text-align: center;
   font-size: 18px;
   line-height: 22px;
@@ -1412,7 +1421,7 @@ footer .footer__bottom-paragraph {
   transition: opacity 0.3s ease;
 }
 
-.item__mini-paragraph-number::-moz-placeholder {
+.shopping__item-mini-paragraph-number::-moz-placeholder {
   text-align: center;
   font-size: 18px;
   line-height: 22px;
@@ -1423,7 +1432,7 @@ footer .footer__bottom-paragraph {
   transition: opacity 0.3s ease;
 }
 
-.item__mini-paragraph-number:-moz-placeholder {
+.shopping__item-mini-paragraph-number:-moz-placeholder {
   text-align: center;
   font-size: 18px;
   line-height: 22px;
@@ -1434,7 +1443,7 @@ footer .footer__bottom-paragraph {
   transition: opacity 0.3s ease;
 }
 
-.item__mini-paragraph-number:-ms-input-placeholder {
+.shopping__item-mini-paragraph-number:-ms-input-placeholder {
   text-align: center;
   font-size: 18px;
   line-height: 22px;
@@ -1445,25 +1454,25 @@ footer .footer__bottom-paragraph {
   transition: opacity 0.3s ease;
 }
 
-.item__mini-paragraph-number:focus::-webkit-input-placeholder {
+.shopping__item-mini-paragraph-number:focus::-webkit-input-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 
-.item__mini-paragraph-number:focus::-moz-placeholder {
+.shopping__item-mini-paragraph-number:focus::-moz-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 
-.item__mini-paragraph-number:focus:-moz-placeholder {
+.shopping__item-mini-paragraph-number:focus:-moz-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 
-.item__mini-paragraph-number:focus:-ms-input-placeholder {
+.shopping__item-mini-paragraph-number:focus:-ms-input-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -1709,7 +1718,7 @@ footer .footer__bottom-paragraph {
     width: 143px;
     margin: 13px 53px 26px 17px;
   }
-  .item__mini-paragraph {
+  .shopping__item-mini-paragraph {
     font-size: 14px;
     line-height: 17px;
     font-weight: 400;
@@ -1717,7 +1726,7 @@ footer .footer__bottom-paragraph {
     color: #575757;
     margin: 0 0 4px 17px;
   }
-  .item__mini-paragraph-value {
+  .shopping__item-mini-paragraph-value {
     font-size: 14px;
     line-height: 17px;
     font-weight: 400;
@@ -1725,30 +1734,30 @@ footer .footer__bottom-paragraph {
     color: #575757;
     margin: 0 0 4px 4px;
   }
-  .item__mini-paragraph-number {
+  .shopping__item-mini-paragraph-number {
     width: 24px;
     height: 15px;
     border: 1px solid #EAEAEA;
   }
-  .item__mini-paragraph-number::-webkit-input-placeholder {
+  .shopping__item-mini-paragraph-number::-webkit-input-placeholder {
     font-size: 10px;
     line-height: 12px;
     font-weight: 400;
     font-style: font-style;
   }
-  .item__mini-paragraph-number::-moz-placeholder {
+  .shopping__item-mini-paragraph-number::-moz-placeholder {
     font-size: 10px;
     line-height: 12px;
     font-weight: 400;
     font-style: font-style;
   }
-  .item__mini-paragraph-number:-moz-placeholder {
+  .shopping__item-mini-paragraph-number:-moz-placeholder {
     font-size: 10px;
     line-height: 12px;
     font-weight: 400;
     font-style: font-style;
   }
-  .item__mini-paragraph-number:-ms-input-placeholder {
+  .shopping__item-mini-paragraph-number:-ms-input-placeholder {
     font-size: 10px;
     line-height: 12px;
     font-weight: 400;
