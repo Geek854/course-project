@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAE9B,MAAM,EAAE,KAAK;CAEhB;;AAED,AAAA,2BAA2B,CAAC;EACxB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,GAAG;CAC7B;;AAED,AAAA,2BAA2B,CAAC;EACxB,OAAO,EAAE,KAAK;EACd,cAAc,EAAE,SAAS;CAG5B",
+    "sources": [
+        "../scss/blocks/product/product-registration.scss"
+    ],
+    "names": [],
+    "file": "product-registration.css"
+}

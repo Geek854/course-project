@@ -1802,4 +1802,45 @@ footer .footer__bottom-paragraph {
     margin: 0 0 96px 0;
   }
 }
+
+.product {
+  height: 148px;
+  background-color: #F1E4E6;
+}
+
+.product__registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 148px;
+  background-color: #F1E4E6;
+}
+
+.product__registration-list {
+  display: -ms-grid;
+  display: grid;
+}
+
+.product__registration-text {
+  display: block;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  font-style: font-style;
+  color: #F16D7F;
+}
+
+@media (max-width: 767px) {
+  .product__registration-text {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */

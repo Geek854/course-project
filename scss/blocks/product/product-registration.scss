@@ -1,0 +1,25 @@
+.product__registration {
+    display: flex;
+    justify-content: space-between;
+    // @include display-align-items();
+    height: 148px;
+    // background-color: $light-pink-color;
+}
+
+.product__registration-list {
+    display: grid;
+    grid-template-columns: 30%;
+}
+
+.product__registration-text {
+    display: block;
+    text-transform: uppercase;
+    // @include font (24px, 29px, 400);
+    // color: $pink-color;
+}
+
+// @media (max-width:$max-mobil-widht) {
+//     .product__registration-text {
+//         text-align: center;
+//     }
+// }
