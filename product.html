@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>product</title>
 </head>
 
@@ -105,23 +104,44 @@
                         <a class="product__registration-link" href="#"> men / </a>
                     </li>
                     <li class="product__registration-titel">
-                        <a class="product__registration-link" href="#"> new arrivals</a>
+                        <a class="product__registration-link arrivals" href="#">new arrivals</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </section>
-    <section>
-        <h2>Carousel</h2>
-        <ul>
-            <li><img src="#" alt="foto"></li>
-            <li><img src="#" alt="foto"></li>
-            <li><img src="#" alt="foto"></li>
-        </ul>
-        <button type="button">Previous</button>
-        <button type="button">Next</button>
+    <section class="carousel">
+        <h2 class="carousel-non">Carousel</h2>
+        <button class="carousel-arrow prev" type="button">
+            <svg class="arrow-img" alt="carousel-arrow prev" width="13" height="23" viewBox="0 0 13 23"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12.6998 3.7499L4.9498 11.4999L12.6998 19.2499L11.1498 22.3499L0.299805 11.4999L11.1498 0.649902L12.6998 3.7499Z" />
+            </svg>
+        </button>
+        <div class="carousel-conteiner">
+            <ul class="carousel-list">
+                <li class="carousel-item">
+                    <img class="carousel-foto1" src="./imges/girlOnAChair.jpg" alt="girl On A Chair" width="597" height="724">
+                </li>
+                <li class="carousel-item">
+                    <img class="carousel-foto2" src="./imges/RemanInHatAndStripedSweater.jpg" alt="Reman In Hat And Striped Sweater" width="597" height="724">
+                </li>
+                <li class="carousel-item">
+                    <img class="carousel-foto3" src="./imges/womanShowsOk.jpg" alt="woman Shows Ok" width="597" height="724">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel-arrow next" type="button">
+            <img>
+            <svg class="arrow-img" alt="carousel-arrow next" width="13" height="23" viewBox="0 0 13 23"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498 22.3499L0.299805 19.2499Z" />
+            </svg>
+        </button>
     </section>
-    <section>
+    <!-- <section>
         <h2><a href="#">women collection</a></h2>
         <form action="#">
             <ul>
@@ -169,7 +189,7 @@
                 <p>$52.00</p>
             </li>
         </ul>
-    </section>
+    </section> -->
     <footer class="footer ">
         <div class="footer__top container-main">
             <div class="footer__top-list container">

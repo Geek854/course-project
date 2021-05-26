@@ -1,0 +1,33 @@
+.carousel-non {
+    display: none;
+}
+
+.arrow-img {
+    width: 12px;
+    height: 22px;
+}
+
+.carousel-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 47px;
+    height: 47px;
+    background: rgba(42, 42, 42, 0.15);
+    border: none;
+}
+
+.carousel-conteiner {
+    width: 1600px;
+    height: 777px;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-list {
+    display: flex;
+}
+
+.carousel-item {
+    display: inline-block;
+}

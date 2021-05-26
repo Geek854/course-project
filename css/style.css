@@ -276,13 +276,13 @@ body {
 
 @media (max-width: 1599px) {
   .header .header__logo {
-    margin: 0 41px 0 35px;
+    margin: 0 41px 0 0;
   }
   .header .header__link {
-    margin: 0 35px 0 0;
+    margin: 0 0 0 35px;
   }
   .header .header__menu-button {
-    margin: 0 35px 0 0;
+    margin: 0;
   }
   .header .header__nav:before {
     right: 25px;
@@ -1804,17 +1804,8 @@ footer .footer__bottom-paragraph {
 }
 
 .product {
-  height: 148px;
-  background-color: #F1E4E6;
-}
-
-.product__registration {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1823,13 +1814,19 @@ footer .footer__bottom-paragraph {
   background-color: #F1E4E6;
 }
 
-.product__registration-list {
-  display: -ms-grid;
-  display: grid;
+.product .product__registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.product__registration-text {
-  display: block;
+.product .product__registration-text {
   text-transform: uppercase;
   font-size: 24px;
   line-height: 29px;
@@ -1838,9 +1835,67 @@ footer .footer__bottom-paragraph {
   color: #F16D7F;
 }
 
-@media (max-width: 767px) {
-  .product__registration-text {
-    text-align: center;
-  }
+.product .product__registration-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 55px 45px 105px;
+      grid-template-columns: 55px 45px 105px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: font-style;
+  color: #636363;
+}
+
+.arrivals {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  font-style: font-style;
+  color: #F16D7F;
+}
+
+.carousel-non {
+  display: none;
+}
+
+.arrow-img {
+  width: 12px;
+  height: 22px;
+}
+
+.carousel-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 47px;
+  height: 47px;
+  background: rgba(42, 42, 42, 0.15);
+  border: none;
+}
+
+.carousel-conteiner {
+  width: 1600px;
+  height: 777px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel-item {
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */

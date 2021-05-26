@@ -1,0 +1,26 @@
+.product {
+    @include display-align-items();
+    height: 148px;
+    background-color: $light-pink-color;
+    .product__registration {
+        @include display-align-items();
+        justify-content: space-between;
+    }
+    .product__registration-text {
+        text-transform: uppercase;
+        @include font (24px, 29px, 400);
+        color: $pink-color;
+    }
+    .product__registration-list {
+        display: grid;
+        grid-template-columns: 55px 45px 105px;
+        text-transform: uppercase;
+        @include font (14px, 17px, 300);
+        color: #636363
+    }
+}
+
+.arrivals {
+    @include font (14px, 17px, 700);
+    color: $pink-color;
+}
