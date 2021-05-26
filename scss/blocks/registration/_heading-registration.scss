@@ -1,12 +1,18 @@
-.shopping__heading {
+.heading-registration {
     @include display-align-items();
     height: 148px;
     background-color: $light-pink-color;
 }
 
-.shopping__heading-text {
+.heading-registration-text {
     display: block;
     text-transform: uppercase;
     @include font (24px, 29px, 400);
     color: $pink-color;
+}
+
+@media (max-width:$max-mobil-widht) {
+    .heading-registration-text {
+        text-align: center;
+    }
 }

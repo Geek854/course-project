@@ -1,0 +1,25 @@
+.product {
+  height: 148px;
+  background-color: #F1E4E6;
+}
+
+.product__registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 148px;
+}
+
+.product__registration-list {
+  display: -ms-grid;
+  display: grid;
+}
+
+.product__registration-text {
+  display: block;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=product-registration.css.map */

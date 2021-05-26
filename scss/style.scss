@@ -11,7 +11,8 @@
 @import './blocks/index/stocks';
 @import './blocks/index/products';
 @import './blocks/index/advantages';
-@import './blocks/registration/heading__registration';
+@import './blocks/registration/heading-registration';
 @import './blocks/registration/registration-main';
-@import './blocks/shopping/shopping__heading';
-@import './blocks/shopping/shopping__bottom';
+@import './blocks/cart/shopping__heading';
+@import './blocks/cart/shopping__bottom';
+@import './blocks/product/product-registration.scss';

@@ -1,0 +1,360 @@
+        .shopping__heading {
+            margin-bottom: 96px;
+        }
+        
+        .shopping__bottom {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .shopping__form {
+            margin: 0 0 0 130px;
+            width: 360px;
+        }
+        
+        .shopping__cart {
+            position: relative;
+        }
+        
+        .shopping__cart::before {
+            content: "";
+            position: absolute;
+            top: 28px;
+            right: 22px;
+            width: 18px;
+            height: 18px;
+            background-image: url(../../../imges/cross.svg);
+        }
+        
+        .shopping__cart1 {
+            display: flex;
+            margin: 0 0 40px 0;
+            box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+        }
+        
+        .shopping__cart2 {
+            display: flex;
+            margin: 0 0 72px 0;
+            box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+        }
+        
+        .shopping__cart-img {
+            width: 50%;
+            height: auto;
+        }
+        
+        .shopping__list-item {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .shopping__list-text {
+            @include font (24px, 29px, 400);
+            color: $black-color;
+            text-transform: uppercase;
+            width: 260px;
+            margin: 22px 97px 42px 31px;
+        }
+        
+        .shopping__item-mini {
+            display: flex;
+        }
+        
+        .shopping__item-mini-paragraph {
+            @include font (22px, 26px, 400);
+            color: $black-color;
+            margin: 0 0 6px 31px;
+        }
+        
+        .shopping__item-mini-paragraph-value {
+            @include font (22px, 26px, 400);
+            color: $black-color;
+            margin: 0 0 6px 4px;
+        }
+        
+        .shopping__item-mini-paragraph-number {
+            margin: 0 0 0 24px;
+            width: 43px;
+            height: 24px;
+            border: 1px solid #EAEAEA;
+        }
+        
+        .shopping__item-mini-paragraph-number::-webkit-input-placeholder {
+            text-align: center;
+            @include font (18px, 22px, 400);
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__item-mini-paragraph-number::-moz-placeholder {
+            text-align: center;
+            @include font (18px, 22px, 400);
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__item-mini-paragraph-number:-moz-placeholder {
+            text-align: center;
+            @include font (18px, 22px, 400);
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__item-mini-paragraph-number:-ms-input-placeholder {
+            text-align: center;
+            @include font (18px, 22px, 400);
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__item-mini-paragraph-number:focus::-webkit-input-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__item-mini-paragraph-number:focus::-moz-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__item-mini-paragraph-number:focus:-moz-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__item-mini-paragraph-number:focus:-ms-input-placeholder {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .shopping__button {
+            display: flex;
+            margin: 0 0 128px 0;
+        }
+        
+        .shopping__button-clear {
+            @include font(14px, 17px, 300);
+            text-transform: uppercase;
+            border: 1px solid #A4A4A4;
+            width: 235px;
+            height: 50px;
+            background-color: white;
+            color: #000000;
+        }
+        
+        .shopping__button-continue {
+            @include font(14px, 17px, 300);
+            text-transform: uppercase;
+            border: 1px solid #A4A4A4;
+            width: 225px;
+            height: 50px;
+            background-color: white;
+            color: #000000;
+            margin: 0 0 0 192px;
+        }
+        
+        .shopping__form-text {
+            margin-bottom: 20px;
+            @include font (16px, 19px, 300);
+            text-transform: uppercase;
+        }
+        
+        .shopping__form-form {
+            width: 354px;
+            height: 45px;
+            margin-bottom: 20px;
+            border: 1px solid #A4A4A4;
+        }
+        
+        .shopping__form-form::-webkit-input-placeholder {
+            @include font (13px, 16px, 300);
+            padding: 17px;
+        }
+        
+        .shopping__form-form::-moz-placeholder {
+            @include font (13px, 16px, 300);
+            padding: 17px;
+        }
+        
+        .shopping__form-form:-moz-placeholder {
+            @include font (13px, 16px, 300);
+            padding: 17px;
+        }
+        
+        .shopping__form-form:-ms-input-placeholder {
+            @include font (13px, 16px, 300);
+            padding: 17px;
+        }
+        
+        .shopping__form-button {
+            @include font (11px, 13px, 300);
+            text-transform: uppercase;
+            color: #4A4A4A;
+            border: 1px solid #A4A4A4;
+            padding: 10px, 14px, 12px 15px;
+            width: 100px;
+            height: 35px;
+            background: #FFFFFF;
+        }
+        
+        .shopping__order {
+            margin: 57px 0 0 128px;
+            width: 360px;
+            height: 214px;
+            background: #F5F3F3;
+        }
+        
+        .shopping__order-list {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .shopping__order-sub {
+            @include font (11px, 13px, 400);
+            color: #4A4A4A;
+            text-transform: uppercase;
+            margin: 39px 20px 0 0;
+        }
+        
+        .shopping__price-sub {
+            @include font (11px, 13px, 400);
+            color: #4A4A4A;
+            margin: 39px 34px 0 0;
+        }
+        
+        .shopping__order-grand {
+            @include font (16px, 19px, 300);
+            color: #4A4A4A;
+            text-transform: uppercase;
+            margin: 12px 25px 0 0;
+        }
+        
+        .shopping__price-grand {
+            @include font (16px, 19px, 300);
+            color: #4A4A4A;
+            margin: 12px 37px 0 0;
+            color: #F16D7F;
+        }
+        
+        .shopping__order-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .shopping__order-line {
+            width: 273px;
+            height: 17px;
+            border-top: 1px solid #E2E2E2;
+            margin: 21px 0 0 0;
+        }
+        
+        .shopping__button-order {
+            @include font (16px, 19px, 300);
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 273px;
+            height: 50px;
+            background-color: #F16D7F;
+            border: none;
+            padding: 0;
+        }
+        
+        @media (max-width: $max-tablet-widht) {
+            .shopping__bottom {
+                flex-direction: column;
+                align-items: center;
+            }
+            .shopping__button {
+                margin: 0 0 64px 0;
+                justify-content: center;
+            }
+            .shopping__button-continue {
+                margin: 0 0 0 48px;
+            }
+            .shopping__bottom-registration {
+                display: flex;
+            }
+            .shopping__form {
+                margin: 0 0 128px 0;
+            }
+            .shopping__order {
+                margin: 39px 0 0 15px;
+            }
+            .shopping__list {
+                min-width: 472px;
+            }
+        }
+        
+        @media (max-width:$max-mobil-widht) {
+            .shopping__cart::before {
+                top: 17px;
+                right: 12px;
+                width: 10px;
+                height: 10px;
+                background-size: 10px, 10px;
+            }
+            .shopping__list {
+                min-width: 214px;
+            }
+            .shopping__list-text {
+                @include font (16px, 19px, 400);
+                text-transform: uppercase;
+                width: 143px;
+                margin: 13px 53px 26px 17px;
+            }
+            .shopping__item-mini-paragraph {
+                @include font (14px, 17px, 400);
+                color: #575757;
+                margin: 0 0 4px 17px;
+            }
+            .shopping__item-mini-paragraph-value {
+                @include font (14px, 17px, 400);
+                color: #575757;
+                margin: 0 0 4px 4px;
+            }
+            .shopping__item-mini-paragraph-number {
+                width: 24px;
+                height: 15px;
+                border: 1px solid #EAEAEA;
+            }
+            .shopping__item-mini-paragraph-number::-webkit-input-placeholder {
+                @include font (10px, 12px, 400);
+            }
+            .shopping__item-mini-paragraph-number::-moz-placeholder {
+                @include font (10px, 12px, 400);
+            }
+            .shopping__item-mini-paragraph-number:-moz-placeholder {
+                @include font (10px, 12px, 400);
+            }
+            .shopping__item-mini-paragraph-number:-ms-input-placeholder {
+                @include font (10px, 12px, 400);
+            }
+            .shopping__button-continue {
+                margin: 0 0 0 9px;
+            }
+            .shopping__button {
+                margin: 0 0 48px 0;
+            }
+            .shopping__button-clear {
+                @include font (12px, 14px, 400);
+                width: 174px;
+                height: 32px;
+            }
+            .shopping__button-continue {
+                @include font (12px, 14px, 400);
+                width: 174px;
+                height: 32px;
+                margin: 0 0 0 9px;
+            }
+            .shopping__bottom-registration {
+                flex-direction: column;
+                align-items: center;
+            }
+            .shopping__form {
+                margin: 0 0 48px 0;
+            }
+            .shopping__order {
+                margin: 0 0 96px 0;
+            }
+        }
