@@ -1,3 +1,9 @@
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .carousel-non {
     display: none;
 }
@@ -18,9 +24,8 @@
 }
 
 .carousel-conteiner {
-    width: 1600px;
-    height: 777px;
-    display: flex;
+    height: 724px;
+    width: 597px;
     overflow: hidden;
 }
 

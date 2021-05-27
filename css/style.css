@@ -1856,6 +1856,18 @@ footer .footer__bottom-paragraph {
   color: #F16D7F;
 }
 
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .carousel-non {
   display: none;
 }
@@ -1881,11 +1893,8 @@ footer .footer__bottom-paragraph {
 }
 
 .carousel-conteiner {
-  width: 1600px;
-  height: 777px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 724px;
+  width: 597px;
   overflow: hidden;
 }
 
