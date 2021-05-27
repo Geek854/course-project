@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #F7F7F7;
+    ;
 }
 
 .carousel-non {
@@ -31,8 +33,40 @@
 
 .carousel-list {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .carousel-item {
     display: inline-block;
+}
+
+.carousel-foto {
+    min-width: 597px;
+}
+
+@media (max-width: $max-tablet-widht) {
+    .carousel-arrow {
+        flex-direction: column;
+    }
+    .carousel-conteiner {
+        height: 565px;
+        width: 466px;
+    }
+    .carousel-foto {
+        min-width: 466px;
+    }
+}
+
+@media (max-width: $max-mobil-widht) {
+    .carousel-arrow {
+        flex-direction: column;
+    }
+    .carousel-conteiner {
+        height: 454px;
+        width: 374px;
+    }
+    .carousel-foto {
+        min-width: 374px;
+    }
 }

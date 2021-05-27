@@ -1,0 +1,123 @@
+.collection {
+    width: 1140px;
+    height: 600px;
+    border: 1px solid #EAEAEA;
+    margin-top: -64px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.collection-heading {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.collection-heading__link {
+    @include font (14px, 17px, 300);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $pink-color;
+}
+
+.collection-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection-form__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    margin-top: 27px;
+    text-transform: uppercase;
+    @include font (18px, 22px, 300);
+    text-align: center;
+    color: #4D4D4D;
+    position: relative;
+}
+
+.form-text {
+    margin-top: 48px;
+    max-width: 555px;
+    text-align: center;
+    @include font (14px, 17px, 300);
+    color: #5E5E5E
+}
+
+.collection-form__title-link {
+    margin-top: 32px;
+}
+
+.form-link {
+    @include font (24px, 29px, 300);
+    color: $pink-color;
+}
+
+.collection-form__list-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.form-button-button {
+    border: none;
+    background-color: #ffffff;
+    @include font (14px, 17px, 400);
+    text-transform: uppercase;
+    margin-right: 42px;
+}
+
+.collection-form__button {
+    width: 210px;
+    height: 47px;
+    margin-top: 49px;
+    border: 1px solid #FF6A6A;
+    background-color: #ffffff;
+    @include font (16px, 19px, 400);
+    color: $pink-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+
+.collection-form__button-img {
+    margin-right: 23px;
+}
+
+.line-mini {
+    width: 63px;
+    height: 3px;
+    position: absolute;
+    background-color: $pink-color;
+    top: 94px;
+}
+
+.line-max {
+    width: 641px;
+    height: 1px;
+    position: absolute;
+    background-color: #EAEAEA;
+    top: 357px;
+}
+
+@media (max-width: $max-tablet-widht) {
+    .collection {
+        margin-top: 0;
+    }
+}
+
+@media (max-width:$max-mobil-widht) {
+    .form-button-button {
+        @include font (10px, 12px, 400);
+        margin: 0;
+    }
+    .collection {
+        margin-top: 0;
+    }
+}

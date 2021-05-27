@@ -122,13 +122,13 @@
         <div class="carousel-conteiner">
             <ul class="carousel-list">
                 <li class="carousel-item">
-                    <img class="carousel-foto1" src="./imges/girlOnAChair.jpg" alt="girl On A Chair" width="597" height="724">
+                    <img class="carousel-foto" src="./imges/girlOnAChair.jpg" alt="girl On A Chair">
                 </li>
                 <li class="carousel-item">
-                    <img class="carousel-foto2" src="./imges/RemanInHatAndStripedSweater.jpg" alt="Reman In Hat And Striped Sweater" width="597" height="724">
+                    <img class="carousel-foto" src="./imges/RemanInHatAndStripedSweater.jpg" alt="Reman In Hat And Striped Sweater">
                 </li>
                 <li class="carousel-item">
-                    <img class="carousel-foto3" src="./imges/womanShowsOk.jpg" alt="woman Shows Ok" width="597" height="724">
+                    <img class="carousel-foto" src="./imges/womanShowsOk.jpg" alt="woman Shows Ok">
                 </li>
             </ul>
         </div>
@@ -141,53 +141,77 @@
             </svg>
         </button>
     </section>
-
-    <section>
-        <h2><a href="#">women collection</a></h2>
-        <form action="#">
-            <ul>
-                <li>
-                    <h2>moschino cheap and chic</h2>
+    <section class="collection container">
+        <h2 class="collection-heading"><a class="collection-heading__link" href="#">women collection</a></h2>
+        <form class="collection-form" action="#">
+            <ul class="collection-form__list">
+                <li class="collection-form__title ">
+                    <h2 class="form-title">moschino cheap and chic</h2>
                 </li>
-                <li>
-                    <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional
+                <li class="collection-form__title">
+                    <p class="form-text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional
                         portals.
                     </p>
                 </li>
-                <li>
-                    <p>
-                        <a href="#">$561</a>
+                <li class="collection-form__title">
+                    <p class="collection-form__title-link">
+                        <a class="form-link" href="#">$561</a>
                     </p>
                 </li>
             </ul>
-            <ul>
-                <li><button type="button">choose color</button></li>
-                <li><button type="button">choose size</button></li>
-                <li><button type="button">quantity</button></li>
+            <ul class="collection-form__list-button">
+                <li class="form-button"><button class="form-button-button" type="button">choose color</button>
+                </li>
+                <li class="form-button"><button class="form-button-button" type="button">choose size</button>
+                </li>
+                <li class="form-button"><button class="form-button-button" type="button">quantity</button>
+                </li>
             </ul>
-            <button type="submit"><img src="imges/basket.svg" alt="basket">Add to Cart</button>
+            <button class="collection-form__button" type="submit"> <img class="collection-form__button-img"
+                    src="imges/basket.svg" alt="basket">Add to Cart</button>
+
+            <div class="line-mini"></div>
+            <div class="line-max"></div>
         </form>
     </section>
-    <section>
-        <h2>catalog</h2>
-        <ul>
-            <li>
-                <img src="imges/aManWithABeardInABlueT-shirt.jpg" alt="aManWithABeardInABlueT-shirt" width="360" height="420">
-                <h2>ellery x m'o capsule</h2>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                <p>$52.00</p>
+    <section class="products product-products">
+        <ul class="products__list container">
+            <li class="products__item container__mini-products">
+                <div class="products__item-img">
+                    <img class="products__img" src="imges/RemanInHatAndStripedSweater.jpg " alt="RemanInHatAndStripedSweater ">
+                </div>
+                <h3 class="products__item-heading">ellery x m'o capsule</h3>
+                <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__item-price">$52.00</p>
+                <button type="button" class="products__item-button">
+                    <img class="products__item-button-imges" src="imges/cart.svg" alt="cart" width="24" height="24">
+                    <span class="products__item-button-text">Add to Cart</span>
+                </button>
             </li>
-            <li>
-                <img src="imges/RemanInHatAndStripedSweater.jpg" alt="RemanInHatAndStripedSweater" width="360" height="420">
-                <h2>ellery x m'o capsule</h2>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                <p>$52.00</p>
+            <li class="products__item container__mini-products">
+                <div class="products__item-img">
+                    <img class="products__img" src="imges/aManWithABeardInABlueT-shirt.jpg " alt="aManWithABeardInABlueT ">
+                </div>
+                <h3 class="products__item-heading">ellery x m'o capsule</h3>
+                <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__item-price">$52.00</p>
+                <button type="button" class="products__item-button">
+                    <img class="products__item-button-imges" src="imges/cart.svg" alt="cart" width="24" height="24">
+                    <span class="products__item-button-text">Add to Cart</span>
+                </button>
             </li>
-            <li>
-                <img src="imges/womanShowsOk.jpg" alt="womanShowsOk" width="360" height="420">
-                <h2>ellery x m'o capsule</h2>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                <p>$52.00</p>
+            <li class="products__item container__mini-products products-none">
+                <div class="products__item-img">
+                    <img class="products__img" src="imges/womanShowsOk.jpg " alt="womanShowsOk ">
+                </div>
+                <h3 class="products__item-heading">ellery x m'o capsule</h3>
+                <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__item-price">$52.00</p>
+                <button type="button" class="products__item-button">
+                    <img class="products__img products__item-button-imges" src="imges/cart.svg" alt="cart" width="24"
+                        height="24">
+                    <span class="products__item-button-text">Add to Cart</span>
+                </button>
             </li>
         </ul>
     </section>

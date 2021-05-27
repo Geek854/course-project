@@ -20,7 +20,21 @@
     }
 }
 
+.product__registration-link {
+    text-decoration: none;
+}
+
 .arrivals {
     @include font (14px, 17px, 700);
     color: $pink-color;
+}
+
+@media (max-width:$max-mobil-widht) {
+    .product__registration {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product__registration-list {
+        margin-top: 32px;
+    }
 }
